@@ -13,7 +13,7 @@ class Persona{
     }
 
     public function setCodigo($codigo){
-        $this->codigo = $codigo
+        $this->codigo = $codigo;
     }
 
     public function getCodigo(){
@@ -36,6 +36,11 @@ class Persona{
         return $this->nombre;
     }
 
+
+    /*public function setNombre(string $): string {
+        return $this->nombre;
+    }
+*/
     public function setTelefono($telefono){
         $this->telefono = $telefono;
     }

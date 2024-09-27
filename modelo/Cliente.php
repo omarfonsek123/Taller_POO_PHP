@@ -1,4 +1,5 @@
 <?php
+require_once 'Persona.php';
 class Cliente extends Persona {
     private $credito;  
 
